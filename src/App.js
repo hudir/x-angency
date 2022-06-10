@@ -6,8 +6,8 @@ import Awards from "./components/Awards/Awards";
 import Blog from "./components/Blog/Blog";
 import Career from "./components/Career/Career";
 import Contact from "./components/Contact/Contact";
-import Industries from "./components/Industries/Industries";
-import Insights from "./components/Insights/Insights";
+import Industries from "./components/Industries-optional/Industries";
+import Insights from "./components/Insights-optional/Insights";
 import Solutions from "./components/Solutions/Solutions";
 import Footer from "./components/HeaderAndFooter/Footer";
 

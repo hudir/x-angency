@@ -1,4 +1,4 @@
-import { Routes , Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Header from "./components/HeaderAndFooter/Header";
 import Home from "./components/LandingPage/Home";
 import About from "./components/About/About";
@@ -11,32 +11,28 @@ import Insights from "./components/Insights-optional/Insights";
 import Solutions from "./components/Solutions/Solutions";
 import Footer from "./components/HeaderAndFooter/Footer";
 
-
 function App() {
   return (
     <div>
-       <Header/>
+      <Header />
 
-       <Routes>
-          <Route path="/" element={ <Home/> }/>
+      <Routes>
+        <Route path="/" element={<Home />} />
 
-          <Route path="/about" element={ <About /> }/>
-          <Route path="/awards" element={ <Awards /> }/>
-          <Route path="/blog" element={ <Blog /> }/>
-          <Route path="/career" element={ <Career /> }/>
-          <Route path="/contact" element={ <Contact /> }/>
+        <Route path="/about" element={<About />} />
+        <Route path="/awards" element={<Awards />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/career" element={<Career />} />
+        <Route path="/contact" element={<Contact />} />
 
-          <Route path="/industries" element={ <Industries /> }/>
-          <Route path="/insights" element={ <Insights /> }/>
-          <Route path="/solutions" element={ <Solutions /> }/>
-          
-          <Route path="/*" element={ <Home/> }/>
+        <Route path="/industries" element={<Industries />} />
+        <Route path="/insights" element={<Insights />} />
+        <Route path="/solutions" element={<Solutions />} />
 
-       </Routes>
+        <Route path="/*" element={<Home />} />
+      </Routes>
 
-       <Footer/>
-
-       
+      <Footer />
     </div>
   );
 }
